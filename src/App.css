@@ -1,0 +1,362 @@
+.Header {
+	display: flex;
+	position: relative;
+	height: 50px;
+	background-color: #576cbc;
+}
+
+.Header > div:nth-of-type(1) {
+	padding: 16px;
+}
+
+.Header > div:nth-of-type(1) > span {
+	font-size: large;
+	color: white;
+	font-weight: 600;
+}
+
+.LoginPage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.formclass {
+	display: flex;
+	flex-direction: column;
+}
+
+.LoginPage > form {
+	padding: 10px;
+}
+
+.LoginPage > form > span {
+	font-size: 18px;
+	font-weight: 600;
+	font-family: "Roboto";
+	margin-bottom: 30px;
+}
+
+.userInput {
+	width: 250px;
+	height: 30px;
+	outline: none;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+.errorclass {
+	color: red;
+	font-size: small;
+}
+
+.loginBtn {
+	width: 100px;
+	height: 30px;
+	font-size: 13px;
+	background-color: #576cbc;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+.NotFoundPage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;
+}
+
+.HomePage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10%;
+	gap: 20px;
+}
+
+.HomeCard {
+	padding: 50px;
+	gap: 20px;
+}
+
+.HomeCard > span {
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.HomeCard > div {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	margin-top: 20px;
+}
+
+.infoBtn {
+	background-color: #576cbc !important;
+	color: white !important;
+}
+
+.TeacherInfoClass {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	gap: 30px;
+}
+
+.TeacherInfoClass > span {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.TeacherInfoCardClass {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	padding: 20px;
+}
+
+.TeacherInfoCardClass > div {
+	display: flex;
+	position: absolute;
+	right: 10px;
+}
+
+.permissionBtn {
+	width: 100px !important;
+	height: 30px !important;
+	text-transform: capitalize !important;
+	background-color: #576cbc !important;
+	color: white !important;
+}
+
+.OpenModalforPermission {
+	width: 212px;
+	height: 90px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.OpenModalforPermission > div {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.OpenModalforPermission > div:nth-of-type(1) {
+	width: 10%;
+	padding-left: 30px;
+}
+
+.OpenModalforPermission > div:nth-of-type(2) {
+	width: 90%;
+}
+
+.StudentInfoClass {
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	gap: 30px;
+}
+
+.StudentInfoClass > div {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	justify-content: space-between;
+}
+
+.StudentInfoClass > div > span {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.StudentInfoCard {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	padding: 20px;
+}
+
+.StudentInfoCard > div:nth-of-type(1) {
+	width: 30%;
+}
+
+.StudentInfoCard > div:nth-of-type(2) {
+	width: 20%;
+	display: flex;
+	justify-content: center;
+}
+
+.StudentInfoCard > div:nth-of-type(3) {
+	width: 20%;
+	justify-content: center;
+}
+
+.StudentInfoCard > div:nth-of-type(4) {
+	width: 20%;
+	justify-content: center;
+}
+
+.StudentInfoCard > div:nth-of-type(5) {
+	width: 10%;
+	justify-content: center;
+}
+
+.StudentInfoCard > div {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.StudentInfoClass > span {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.StudentInfoCard > div > span {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.StudentInfoCard > div:nth-of-type(2) > div {
+	display: flex;
+	flex-direction: column;
+}
+
+.StudentInfoCard > div:nth-of-type(3) > div {
+	display: flex;
+	gap: 20px;
+}
+
+.classeAttend {
+	display: flex;
+	flex-direction: row;
+	margin-top: 6px;
+}
+
+.changesValue {
+	font-size: 20px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.addClass {
+	width: 100px;
+	background-color: #576cbc !important;
+	color: white !important;
+}
+
+.addStudent {
+	background-color: #576cbc !important;
+	color: white !important;
+}
+
+.OpenModalClass {
+	width: 500px;
+	height: 660px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	gap: 10px;
+	padding: 20px;
+	align-items: center;
+}
+
+.OpenModalClass > span:nth-of-type(1) {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.OpenModalClass > div {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.userInput1 {
+	height: 30px;
+	outline: none;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+.submitBtn {
+	position: absolute;
+	right: 40px;
+	bottom: 20px;
+	background-color: #576cbc;
+	outline: none;
+	border: none;
+	width: 100px;
+	height: 30px;
+	color: white;
+	font-size: 12px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.openModalForAction {
+	width: 500px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	align-items: center;
+	gap: 15px;
+	position: relative;
+}
+
+.openModalForAction > span {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.openModalForAction > div {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.linkINput {
+	height: 35px;
+	outline: none;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-size: 12px;
+}
+
+.editSave {
+	width: 100px;
+	height: 25px;
+	position: absolute;
+	right: 30px;
+	bottom: 20px;
+	background-color: #576cbc;
+	border: none;
+	color: white;
+	cursor: pointer;
+	font-size: 12px;
+	border-radius: 5px;
+}
+
+.instrumentNameText {
+	font-size: smaller;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: blue;
+}
+
+.SaveChange {
+	background-color: #576cbc !important;
+	color: white !important;
+	border-radius: 0px !important;
+}
